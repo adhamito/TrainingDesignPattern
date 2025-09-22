@@ -4,20 +4,14 @@ interface TravelStrategy {
 }
 // 2. Concrete strategies
 class CarTravel implements TravelStrategy{
-    travel(destination:string):void{
-        console.log(`Traveling to ${destination} by car.`);
-    }
+    travel(destination:string):void {}
 }
 class TrainTravel implements TravelStrategy{
-    travel(destination:string):void{
-        console.log(`Traveling to ${destination} by train.`);
-    }
+    travel(destination:string):void {}
 }
 
 class PlaneTravel implements TravelStrategy{
-    travel(destination:string):void{
-        console.log(`Traveling to ${destination} by plane.`);
-    }
+    travel(destination:string):void {}
 }
 // 3. Context
 class TravelContext{
